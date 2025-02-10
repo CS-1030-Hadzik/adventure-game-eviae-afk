@@ -1,2 +1,3 @@
 # adventure_game
-Author is Mimi.
+## Created by Mimi
+This is a text based adventure game.

@@ -6,7 +6,7 @@ player_name=input("What is youe name adventurer?")
 #Concatenate strings to create a personalized message
 print("Welcome, "+player_name+"! Your journey begins now.")
 #Use a f-string to display the same message in a more readable way
-print(f"Welcom, {player_name}! Your journey begins now.")
+print(f"Welcome, {player_name}! Your journey begins now.")
 #Describe the starting area
 starting_area = """
 You find yourself in a dark forest.
@@ -22,4 +22,3 @@ elif decision == "no":
     print(f"{player_name}, you decide to wait. Perhaps courage will find you later.") #Concatenation example
 else: 
     print("Confused, you stand still, unsure of what to do.")
-    

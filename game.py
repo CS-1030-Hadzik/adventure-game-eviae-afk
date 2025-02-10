@@ -17,7 +17,7 @@ print(starting_area)
 decision = input("DO you wish to take the path? (yes or no):").lower()
 #Respond based on the player's decision
 if decision == "yes":
-    print(f"Brave choic, {player_name}! You step on the path and venture forward.")
+    print(f"Brave choice, {player_name}! You step on the path and venture forward.")
 elif decision == "no":
     print(f"{player_name}, you decide to wait. Perhaps courage will find you later.") #Concatenation example
 else: 
